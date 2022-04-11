@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/eyal7/CLionProjects/ex6-eyal_haluts/helpers.h
+cstdlib
+-
+cstdio
+-
+cstdint
+-
+cinttypes
+-
+cstring
+-
+
+/cygdrive/c/Users/eyal7/CLionProjects/ex6-eyal_haluts/presubmit.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+vl_vector.h
+/cygdrive/c/Users/eyal7/CLionProjects/ex6-eyal_haluts/vl_vector.h
+helpers.h
+/cygdrive/c/Users/eyal7/CLionProjects/ex6-eyal_haluts/helpers.h
+
+/cygdrive/c/Users/eyal7/CLionProjects/ex6-eyal_haluts/vl_vector.h
+iostream
+-
+algorithm
+-
+
